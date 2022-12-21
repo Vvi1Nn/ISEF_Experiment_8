@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Set parameters -->
+    <param name="robot_description" textfile="$(find learning_urdf)/urdf/urdf/demo1.urdf" />
+
+    <!-- Launch RViz -->
+    <!-- <node pkg="rviz" type="rviz" name="rviz"/> -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find learning_urdf)/config/show_mycar.rviz" />
+
+</launch>
