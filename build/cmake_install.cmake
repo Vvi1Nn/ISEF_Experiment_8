@@ -131,6 +131,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/zwh/experiment_5/build/gtest/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix_controllers/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix_firmware/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix_python/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix_sensors/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/arbotix_ros/arbotix_msgs/cmake_install.cmake")
+  include("/home/zwh/experiment_5/build/gazebo_test/cmake_install.cmake")
   include("/home/zwh/experiment_5/build/learning_urdf/cmake_install.cmake")
 
 endif()
