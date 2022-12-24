@@ -1,2 +1,2 @@
-arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:gazebo_test:learning_urdf
+arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:gazebo_test:learning_navigation:learning_urdf
 -DCATKIN_DEVEL_PREFIX=/home/zwh/experiment_5/devel -DCMAKE_INSTALL_PREFIX=/home/zwh/experiment_5/install -G Unix Makefiles
