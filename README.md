@@ -14,3 +14,9 @@ All of the feature packages created in class are in the `src` folder, and each f
 5. Gazebo.
 6. The application of URDF, Gazebo and Rviz.
 
+## `learning_navigation`
+1. gmapping.
+2. map_server.
+3. amcl.
+4. path planning.
+5. SLAM.
