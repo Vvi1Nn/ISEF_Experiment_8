@@ -1,0 +1,4 @@
+<launch>
+    <arg name="filename" value="$(find learning_navigation)/map/gmapping_test" />
+    <node name="my_map_save" pkg="map_server" type="map_saver" args="-f $(arg filename)" />
+</launch>
