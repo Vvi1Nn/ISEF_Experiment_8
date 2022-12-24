@@ -1,5 +1,7 @@
 image: /home/zwh/experiment_5/src/learning_navigation/map/gmapping_test.pgm
+# 分辨率，m/像素
 resolution: 0.050000
+# x,y,yaw
 origin: [-50.000000, -50.000000, 0.000000]
 negate: 0
 occupied_thresh: 0.65
