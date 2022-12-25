@@ -1,0 +1,8 @@
+<launch>
+    <!-- 启动SLAM节点 -->
+    <include file="$(find learning_navigation)/launch/gmapping_test.launch" />
+    <!-- 运行move_base节点 -->
+    <include file="$(find learning_navigation)/launch/move_base_run.launch" />
+    <!-- 运行rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find learning_navigation)/config/gmapping_test.rviz" />
+</launch>
